@@ -103,3 +103,17 @@ footer {
   padding: 20px;
   background: #020617;
 }
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.light {
+  background: #f8fafc;
+  color: #020617;
+}
